@@ -4,8 +4,7 @@ Title: R for Computing for Social Sciences course
 Version: 0.1.0
 Author: Benjamin Soltoff
 Maintainer: Benjamin Soltoff <ben@bensoltoff.com>
-Description: Helper functions and datasets for UChicago course on Computing for
-the Social Sciences.
+Description: Helper functions and datasets for UChicago course on Computing for the Social Sciences.
 License: CC BY-NC 4.0 license
 Encoding: UTF-8
 LazyData: true

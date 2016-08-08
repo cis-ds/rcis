@@ -21,3 +21,4 @@ cfss_document <- function(inputFile, encoding) {
                                             gsub(".Rmd", ".html", basename(inputFile))),
                     output_format = out_format)
 }
+
