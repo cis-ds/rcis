@@ -1,0 +1,13 @@
+---
+title: "Untitled"
+author: |
+  | MACS 30500
+  | University of Chicago
+date: 
+knit: rcfss::cfss_slides
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      cache = TRUE)
+```

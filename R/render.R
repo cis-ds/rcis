@@ -1,24 +1,48 @@
-#' cfss_document
+#' cfss_slides
 #'
-#' Function to generate slides/notes/etc. for class.
+#' Function to generate slides for class.
 #'
 #' @param inputFile Rmd file to be rendered
 #' @param encoding
 #'
 #' @export
 #'
-cfss_document <- function(inputFile, encoding) {
-  out_dir <- sub(".*_", "", tools::file_path_sans_ext(inputFile));
-  if(out_dir == "slides") {
-    out_format <- "revealjs::revealjs_presentation"
-  } else {
-    out_format <- "html_document"
-  }
+cfss_slides <- function(inputFile, encoding) {
+  # call revealjs to generate output format
+  out_format <- revealjs::revealjs_presentation(theme = "simple",
+                                                highlight = "pygments",
+                                                incremental = TRUE,
+                                                transition = "fade",
+                                                center = FALSE,
+                                                # css = css,
+                                                reveal_options = list(center = FALSE,
+                                                                      previewLinks = TRUE))
+
+  # render using rmarkdown
   rmarkdown::render(inputFile,
                     encoding = encoding,
-                    output_file = file.path(dirname(inputFile),
-                                            out_dir,
-                                            gsub(".Rmd", ".html", basename(inputFile))),
+                    output_format = out_format)
+}
+
+#' cfss_notes
+#'
+#' Function to generate notes for class.
+#'
+#' @param inputFile Rmd file to be rendered
+#' @param encoding
+#'
+#' @export
+#'
+cfss_notes <- function(inputFile, encoding) {
+  # call the base html_document function
+  out_format <- rmarkdown::html_document(theme = "simple",
+                           highlight = "pygments",
+                           toc = TRUE,
+                           toc_float = TRUE)
+
+  # render using rmarkdown
+  rmarkdown::render(inputFile,
+                    encoding = encoding,
                     output_format = out_format)
 }
 

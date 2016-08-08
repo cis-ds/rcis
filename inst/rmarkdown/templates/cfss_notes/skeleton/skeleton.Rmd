@@ -1,0 +1,13 @@
+---
+title: "Untitled"
+author: |
+  | Benjamin Soltoff
+  | MACS 30500 - Computing for the Social Sciences
+  | University of Chicago
+date: 
+knit: rcfss::cfss_notes
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+```
