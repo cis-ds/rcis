@@ -17,7 +17,6 @@ knitr::opts_chunk$set(cache = TRUE)
 * 
 
 
-
 # Session Info {.toc-ignore}
 
 ```{r sessioninfo}
