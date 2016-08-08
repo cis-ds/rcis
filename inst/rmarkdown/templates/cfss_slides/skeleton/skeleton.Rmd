@@ -4,7 +4,7 @@ author: |
   | MACS 30500
   | University of Chicago
 date: 
-knit: rcfss::cfss_slides
+output: rcfss::cfss_slides
 ---
 
 ```{r setup, include = FALSE}

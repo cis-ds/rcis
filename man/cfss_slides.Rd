@@ -4,12 +4,7 @@
 \alias{cfss_slides}
 \title{cfss_slides}
 \usage{
-cfss_slides(inputFile, encoding)
-}
-\arguments{
-\item{inputFile}{Rmd file to be rendered}
-
-\item{encoding}{}
+cfss_slides()
 }
 \description{
 Function to generate slides for class.

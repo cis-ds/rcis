@@ -4,12 +4,7 @@
 \alias{cfss_notes}
 \title{cfss_notes}
 \usage{
-cfss_notes(inputFile, encoding)
-}
-\arguments{
-\item{inputFile}{Rmd file to be rendered}
-
-\item{encoding}{}
+cfss_notes()
 }
 \description{
 Function to generate notes for class.
