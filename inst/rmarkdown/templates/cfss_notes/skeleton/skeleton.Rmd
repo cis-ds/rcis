@@ -12,10 +12,13 @@ output: rcfss::cfss_notes
 knitr::opts_chunk$set(cache = TRUE)
 ```
 
+# Objectives
+
+* 
 
 
 
-## Session Info
+# Session Info {.toc-ignore}
 
 ```{r sessioninfo}
 devtools::session_info()
