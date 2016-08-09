@@ -6,12 +6,13 @@
 #' @export
 #'
 cfss_slides <- function() {
+  css <- system.file("reports/styles.css", package = "rcfss")
   revealjs::revealjs_presentation(theme = "simple",
                                   highlight = "pygments",
                                   incremental = TRUE,
                                   transition = "fade",
                                   center = FALSE,
-                                  # css = css,
+                                  css = css,
                                   reveal_options = list(center = FALSE,
                                                         previewLinks = TRUE))
 }
