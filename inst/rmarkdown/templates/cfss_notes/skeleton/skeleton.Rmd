@@ -6,7 +6,7 @@ author: |
   | University of Chicago
 date: 
 output: rcfss::cfss_notes
-bibliography: ../../references.bib
+bibliography: ../references.bib
 ---
 
 ```{r setup, include = FALSE}
