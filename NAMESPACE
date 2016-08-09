@@ -2,3 +2,4 @@
 
 export(cfss_notes)
 export(cfss_slides)
+importFrom(magrittr,"%>%")

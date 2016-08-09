@@ -23,11 +23,21 @@ cfss_slides <- function() {
 #'
 #'
 #' @export
+#' @importFrom magrittr "%>%"
 #'
-cfss_notes <- function() {
+cfss_notes <- function(keep_md = FALSE) {
+  bib <- system.file("reports/references.bib", package = "rcfss")
+  csl <- system.file("reports/american-political-science-association.csl", package = "rcfss")
+
   rmarkdown::html_document(theme = "readable",
                            highlight = "pygments",
                            toc = TRUE,
-                           toc_float = TRUE)
+                           toc_float = TRUE,
+                           keep_md = keep_md,
+                           pandoc_args = c(rbind("--bibliography",
+                                                 bib),
+                                           rbind("--filter",
+                                                 rmarkdown:::pandoc_citeproc()),
+                                           rbind("--csl",
+                                                 csl)))
 }
-

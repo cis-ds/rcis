@@ -22,3 +22,5 @@ knitr::opts_chunk$set(cache = TRUE)
 ```{r sessioninfo}
 devtools::session_info()
 ```
+
+# References {.toc-ignore}

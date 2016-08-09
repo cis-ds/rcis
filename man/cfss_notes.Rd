@@ -4,7 +4,7 @@
 \alias{cfss_notes}
 \title{cfss_notes}
 \usage{
-cfss_notes()
+cfss_notes(keep_md = FALSE)
 }
 \description{
 Function to generate notes for class.
