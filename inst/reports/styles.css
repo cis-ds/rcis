@@ -14,3 +14,9 @@
   z-index:-10;
   width:50%;
 }
+
+.scrollable {
+    overflow-y: auto  !important;
+    overflow-x: hidden !important;
+    height: 700px;
+}
