@@ -9,7 +9,7 @@ cfss_slides <- function() {
   css <- system.file("reports/styles.css", package = "rcfss")
   revealjs::revealjs_presentation(theme = "simple",
                                   highlight = "pygments",
-                                  incremental = FALSE,
+                                  incremental = TRUE,
                                   transition = "fade",
                                   center = FALSE,
                                   css = css,
@@ -25,10 +25,9 @@ cfss_slides <- function() {
 #' @export
 #' @importFrom magrittr "%>%"
 #'
-cfss_notes <- function(keep_md = FALSE) {
+cfss_notes <- function() {
   rmarkdown::html_document(theme = "readable",
                            highlight = "pygments",
                            toc = TRUE,
-                           toc_float = TRUE,
-                           keep_md = keep_md)
+                           toc_float = TRUE)
 }
