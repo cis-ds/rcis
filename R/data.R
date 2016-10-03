@@ -18,6 +18,8 @@
 #'   \item{comprate}{Rate of first-time, full-time students at four-year institutions
 #'   who complete their degree within six years}
 #'   \item{firstgen}{Share of first-generation students}
+#'   \item{earnings}{Median earnings of students working and not enrolled 10 years after entry}
+#'   \item{debt}{Median debt of students after leaving school}
 #' }
 #' @source \url{https://collegescorecard.ed.gov/data/}
 "scorecard"
