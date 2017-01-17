@@ -59,3 +59,29 @@
 #' }
 #' @source \url{http://www.ats.ucla.edu/stat/stata/modules/reshapel.htm}
 "dadmom"
+
+#' Superheroes
+#'
+#' A dataset for practicing relational joins.
+#'
+#' @format A data frame with 7 rows and 4 variables:
+#' \describe{
+#'   \item{name}{Name of superhero}
+#'   \item{alignment}{Is the superhero good or bad?}
+#'   \item{gender}{Gender of superhero}
+#'   \item{publisher}{Publisher which created the superhero}
+#' }
+#' @source \url{http://stat545.com/bit001_dplyr-cheatsheet.html}
+"superheroes"
+
+#' Publishers
+#'
+#' A dataset for practicing relational joins.
+#'
+#' @format A data frame with 3 rows and 2 variables:
+#' \describe{
+#'   \item{publisher}{Name of publisher}
+#'   \item{yr_founded}{Year the publisher was founded}
+#' }
+#' @source \url{http://stat545.com/bit001_dplyr-cheatsheet.html}
+"publishers"
