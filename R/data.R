@@ -85,3 +85,22 @@
 #' }
 #' @source \url{http://stat545.com/bit001_dplyr-cheatsheet.html}
 "publishers"
+
+#' Voter turnout and mental health
+#'
+#' A subset of data from the 1998 General Social Survey including
+#' questions about voter turnout and mental health.
+#'
+#' @format A data frame with 1317 rows and 5 variables:
+#' \describe{
+#'   \item{vote96}{1 if the respondent voted in the 1996 presidential
+#'   election, 0 otherwise}
+#'   \item{age}{Age of respondent}
+#'   \item{educ}{Number of years of formal education completed by the respondent}
+#'   \item{female}{1 if respondent is female, 0 if male}
+#'   \item{mhealth}{Index variable which assesses the respondent's
+#'   mental health, ranging from 0 (an individual with no depressed mood) and
+#'   9 (an individual with the most severe depressed mood).}
+#' }
+#' @source \url{http://gss.norc.org/}
+"mental_health"
