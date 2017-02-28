@@ -29,4 +29,3 @@ A dataset containing records on all firearm deaths in the United
 States (excluding non-U.S. residents) from 2012-2014.
 }
 \keyword{datasets}
-

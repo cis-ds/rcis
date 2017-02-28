@@ -12,4 +12,3 @@ logit2prob(x)
 \description{
 Function to convert log-odds to predicted probabilities.
 }
-

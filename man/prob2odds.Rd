@@ -2,7 +2,7 @@
 % Please edit documentation in R/helper.R
 \name{prob2odds}
 \alias{prob2odds}
-\title{Convert predicted probabilities to log-dds}
+\title{Convert predicted probabilities to log-odds}
 \usage{
 prob2odds(x)
 }
@@ -12,4 +12,3 @@ prob2odds(x)
 \description{
 Function to convert predicted probabilities to log-odds.
 }
-

@@ -32,4 +32,3 @@ A dataset containing a sample of observations and variables
 from the Department of Education's College Scorecard (data is for 2013)
 }
 \keyword{datasets}
-

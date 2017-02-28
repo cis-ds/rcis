@@ -9,4 +9,3 @@ cfss_slides()
 \description{
 Function to generate slides for class.
 }
-

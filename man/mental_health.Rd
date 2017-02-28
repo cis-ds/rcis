@@ -26,4 +26,3 @@ A subset of data from the 1998 General Social Survey including
 questions about voter turnout and mental health.
 }
 \keyword{datasets}
-

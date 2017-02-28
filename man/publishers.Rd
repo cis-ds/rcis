@@ -19,4 +19,3 @@ publishers
 A dataset for practicing relational joins.
 }
 \keyword{datasets}
-

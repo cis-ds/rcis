@@ -12,4 +12,3 @@ prob2logodds(x)
 \description{
 Function to convert probabilities to log-odds.
 }
-

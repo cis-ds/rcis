@@ -9,4 +9,3 @@ cfss_notes()
 \description{
 Function to generate notes for class.
 }
-

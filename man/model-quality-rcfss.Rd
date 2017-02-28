@@ -23,4 +23,3 @@ mse.glm(model, data)
 mod <- lm(mpg ~ wt, data = mtcars)
 mse(mod, mtcars)
 }
-

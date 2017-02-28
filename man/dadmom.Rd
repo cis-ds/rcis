@@ -22,4 +22,3 @@ dadmom
 A dataset for practicing converting from long-to-wide data form.
 }
 \keyword{datasets}
-
