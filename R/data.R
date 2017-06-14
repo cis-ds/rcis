@@ -104,3 +104,28 @@
 #' }
 #' @source \url{http://gss.norc.org/}
 "mental_health"
+
+#' Emotion scores from 2016 presidential debate
+#'
+#' A data frame containing predicted emotion scores from the first 2016
+#' US presidential debate. Each row is the score for each emotion type for either
+#' Trump or Clinton in each frame of the video. Emotion scores calculated using the
+#' \href{https://www.microsoft.com/cognitive-services/en-us/emotion-api}{Microsoft Emotion API}.
+#'
+#' @format A data frame with 128,688 rows and 11 variables:
+#' \describe{
+#'   \item{start}{The start time of the first event, in ticks. In this video there are
+#'   30000 ticks per second.}
+#'   \item{duration}{The length of the fragment, in ticks.}
+#'   \item{interval}{The length of each event within the fragment, in ticks.}
+#'   \item{id}{Trump or Clinton.}
+#'   \item{x}{X coordinate of top-left corner of face.}
+#'   \item{y}{Y coordinate of top-left corner of face.}
+#'   \item{width}{Width of face.}
+#'   \item{height}{Height of face.}
+#'   \item{row_id}{ID of video frame.}
+#'   \item{key}{Type of emotion measured.}
+#'   \item{value}{Probability that the facial expression expresses this emotion.}
+#' }
+#' @source \url{https://blog.exploratory.io/analyzing-emotions-using-facial-expressions-in-video-with-microsoft-ai-and-r-8f7585dd0780}
+"emotion"
