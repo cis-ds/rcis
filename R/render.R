@@ -14,7 +14,9 @@ cfss_slides <- function() {
                                   center = FALSE,
                                   css = css,
                                   reveal_options = list(center = FALSE,
-                                                        previewLinks = TRUE))
+                                                        previewLinks = TRUE,
+                                                        minScale = 1.0,
+                                                        maxScale = 1.0))
 }
 
 #' cfss_notes
