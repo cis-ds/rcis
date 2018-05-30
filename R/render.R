@@ -5,11 +5,11 @@
 #'
 #' @export
 #'
-cfss_slides <- function() {
+cfss_slides <- function(incremental = TRUE) {
   css <- system.file("reports/styles.css", package = "rcfss")
   revealjs::revealjs_presentation(theme = "simple",
                                   highlight = "pygments",
-                                  incremental = TRUE,
+                                  incremental = incremental,
                                   transition = "fade",
                                   center = FALSE,
                                   css = css,

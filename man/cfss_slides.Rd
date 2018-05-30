@@ -4,7 +4,7 @@
 \alias{cfss_slides}
 \title{cfss_slides}
 \usage{
-cfss_slides()
+cfss_slides(incremental = TRUE)
 }
 \description{
 Function to generate slides for class.
