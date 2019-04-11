@@ -2,6 +2,7 @@
 
 S3method(mse,data.frame)
 export(add_ci)
+export(base_size)
 export(cfss_notes)
 export(cfss_slides)
 export(err.rate.rf)

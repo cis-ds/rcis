@@ -31,3 +31,13 @@ cfss_notes <- function() {
                            toc = TRUE,
                            toc_float = TRUE)
 }
+
+#' Default base size for `ggplot()` objects
+#'
+#' Default base size for `ggplot()` objects intended to render in lecture slides.
+#'
+#' @format A numeric value
+#' @export
+"base_size"
+
+base_size <- 24
