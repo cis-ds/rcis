@@ -3,12 +3,12 @@
 \docType{data}
 \name{base_size}
 \alias{base_size}
-\title{Default base size for `ggplot()` objects}
+\title{Default base size for \code{\link{ggplot}} objects}
 \format{A numeric value}
 \usage{
 base_size
 }
 \description{
-Default base size for `ggplot()` objects intended to render in lecture slides.
+Default base size for \code{\link{ggplot}} objects intended to render in lecture slides.
 }
 \keyword{datasets}
