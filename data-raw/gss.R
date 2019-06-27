@@ -20,13 +20,13 @@ gss_subset <- gss %>%
 
 # impute the dataset for learning purposes
 gss_rec <- recipe(colrac ~ ., data = gss_subset) %>%
-  step_knnimpute(all_predictors(), all_outcomes()) %>%
-  step_integer(income06)
+  step_knnimpute(all_predictors(), all_outcomes())
 
 # generate imputed dataset
 trained_rec <- prep(gss_rec)
 gss_colrac <- juice(trained_rec) %>%
   mutate_if(.predicate = is.numeric, .funs = round) %>%
-  select(colrac, everything())
+  select(colrac, everything()) %>%
+  mutate(colrac = colrac == "ALLOWED")
 
 usethis::use_data(gss_colrac, overwrite = TRUE)
