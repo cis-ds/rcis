@@ -8,7 +8,7 @@ Mystique,          bad, female,            Marvel
   Batman,         good,   male,                DC
    Joker,          bad,   male,                DC
 Catwoman,          bad, female,                DC
- Sabrina, questionable, female,     Archie Comics
+ Sabrina,         good, female,     Archie Comics
 "
 
 superheroes <- read_csv(superheroes, skip = 1)
