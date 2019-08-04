@@ -182,3 +182,28 @@
 #' }
 #' @source 2012 General Social Survey.
 "gss_colrac"
+
+#' US Mass Shootings
+#'
+#' A dataset containing records on all identifiable mass shootings in the
+#' United States from 1982-2019.
+#'
+#' @format A data frame with 114 rows and 14 variables:
+#' \describe{
+#'   \item{case}{Short name of the incident.}
+#'   \item{year}{Year in which the shooting occurred.}
+#'   \item{month}{Month in which the shooting occurred.}
+#'   \item{day}{Day in which the shooting occurred.}
+#'   \item{location}{City and state where the shooting occurred.}
+#'   \item{summary}{Brief text description of the mass shooting incident.}
+#'   \item{fatalities}{Number of fatal victims in the incident (excluding the shooter).}
+#'   \item{injured}{Number of injured, non-fatal victims in the incident (excluding the shooter).}
+#'   \item{total_victims}{Number of total victims in the incident (excluding the shooter).}
+#'   \item{location_type}{Generic location in which the shooting occurred.}
+#'   \item{male}{Logical value indicating if the perpetrator was a male.}
+#'   \item{age_of_shooter}{Age of the perpetrator when the incident occurred.}
+#'   \item{race}{Race of the shooter.}
+#'   \item{prior_mental_illness}{Did the perpetrator show evidence of mental illness prior to the incident?}
+#' }
+#' @source \url{https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/}
+"mass_shootings"
