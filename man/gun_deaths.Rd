@@ -8,7 +8,7 @@
 \describe{
   \item{id}{Row number of the observation}
   \item{year}{Year the death occurred}
-  \item{month}{Month the death occurred (1 = January, 2 = February, etc.)}
+  \item{month}{Month the death occurred}
   \item{intent}{Intent of the death (homicide, suicide, accidental, unknown)}
   \item{police}{Indicator if the death was the result of an officer-involved shooting}
   \item{sex}{Victim's sex}
