@@ -1,0 +1,31 @@
+bootswatch: cerulean
+reference:
+  - title: Helper functions
+    desc: Short functions written to help perform basic operations in class.
+    contents:
+      - '`ci`'
+      - '`err-rate`'
+      - '`logit2prob`'
+      - '`mse`'
+      - '`prob2logodds`'
+      - '`prob2odds`'
+      - '`xaringan`'
+  - title: Notes/slides
+    desc: Functions to generate custom formatted RMarkdown notes and slides.
+    contents:
+      - '`cfss_notes`'
+      - '`cfss_slides`'
+      - '`base_size`'
+  - title: Datasets
+    desc: Datasets for in-class exercises, homework assignments, and demonstrations
+    contents:
+      - '`USCongress`'
+      - '`dadmom`'
+      - '`emotion`'
+      - '`gss_colrac`'
+      - '`gun_deaths`'
+      - '`mass_shootings`'
+      - '`mental_health`'
+      - '`publishers`'
+      - '`scorecard`'
+      - '`superheroes`'
