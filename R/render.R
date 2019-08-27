@@ -55,7 +55,9 @@ xaringan <- function(){
     css = c("default", "metropolis", "lucy-fonts"),
     lib_dir = "libs",
     nature = list(
-      beforeInit = "https://cfss.uchicago.edu/slides/macros.js",
+      beforeInit = c("https://cfss.uchicago.edu/slides/macros.js",
+                     "https://platform.twitter.com/widgets.js",
+                     "https://www.redditstatic.com/comment-embed.js"),
       highlightLanguage = "r",
       highlightStyle = "github",
       highlightLines = TRUE,
