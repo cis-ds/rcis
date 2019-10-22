@@ -56,8 +56,7 @@ xaringan <- function(){
     lib_dir = "libs",
     nature = list(
       beforeInit = c("https://cfss.uchicago.edu/slides/macros.js",
-                     "https://platform.twitter.com/widgets.js",
-                     "https://www.redditstatic.com/comment-embed.js"),
+                     "https://platform.twitter.com/widgets.js"),
       highlightLanguage = "r",
       highlightStyle = "github",
       highlightLines = TRUE,
