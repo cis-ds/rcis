@@ -15,6 +15,9 @@ mse_vec(truth, estimate, na_rm = TRUE, ...)
 \arguments{
 \item{...}{}
 }
+\value{
+
+}
 \description{
 Mean squared error
 }

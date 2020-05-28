@@ -4,7 +4,8 @@
 \name{gss_colrac}
 \alias{gss_colrac}
 \title{GSS dataset for in-class exercise}
-\format{A data frame with 1,974 rows and 19 variables:
+\format{
+A data frame with 1,974 rows and 19 variables:
 \describe{
   \item{colrac}{College Teaching: Allow Racist to Teach}
   \item{age}{Respondent's Age}
@@ -25,7 +26,8 @@
   \item{tolerance}{Tolerance Scale}
   \item{wordsum}{Number Words Correct in Vocabulary Test}
   \item{zodiac}{Respondent's Astrological Sign}
-}}
+}
+}
 \source{
 2012 General Social Survey.
 }

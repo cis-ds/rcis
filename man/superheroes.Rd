@@ -4,13 +4,15 @@
 \name{superheroes}
 \alias{superheroes}
 \title{Superheroes}
-\format{A data frame with 7 rows and 4 variables:
+\format{
+A data frame with 7 rows and 4 variables:
 \describe{
   \item{name}{Name of superhero}
   \item{alignment}{Is the superhero good or bad?}
   \item{gender}{Gender of superhero}
   \item{publisher}{Publisher which created the superhero}
-}}
+}
+}
 \source{
 \url{http://stat545.com/bit001_dplyr-cheatsheet.html}
 }

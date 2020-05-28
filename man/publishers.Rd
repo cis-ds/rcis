@@ -4,11 +4,13 @@
 \name{publishers}
 \alias{publishers}
 \title{Publishers}
-\format{A data frame with 3 rows and 2 variables:
+\format{
+A data frame with 3 rows and 2 variables:
 \describe{
   \item{publisher}{Name of publisher}
   \item{yr_founded}{Year the publisher was founded}
-}}
+}
+}
 \source{
 \url{http://stat545.com/bit001_dplyr-cheatsheet.html}
 }

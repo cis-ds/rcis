@@ -4,7 +4,8 @@
 \name{mental_health}
 \alias{mental_health}
 \title{Voter turnout and mental health}
-\format{A data frame with 1317 rows and 5 variables:
+\format{
+A data frame with 1317 rows and 5 variables:
 \describe{
   \item{vote96}{1 if the respondent voted in the 1996 presidential
   election, 0 otherwise}
@@ -14,7 +15,8 @@
   \item{mhealth}{Index variable which assesses the respondent's
   mental health, ranging from 0 (an individual with no depressed mood) and
   9 (an individual with the most severe depressed mood).}
-}}
+}
+}
 \source{
 \url{http://gss.norc.org/}
 }

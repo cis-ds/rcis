@@ -4,7 +4,8 @@
 \name{USCongress}
 \alias{USCongress}
 \title{A sample dataset containing labeled bills from the United State Congress.}
-\format{A \code{tibble} containing six columns.
+\format{
+A \code{tibble} containing six columns.
 \describe{
   \item{ID}{A unique identifier for the bill.}
   \item{cong}{The session of congress in which the bill first appeared.}
@@ -13,7 +14,8 @@
   the House (HR) or the Senate (S).}
   \item{major}{A manually labeled topic code corresponding to the subject of the bill.}
   \item{text}{A short text description of the bill.}
-}}
+}
+}
 \source{
 First included in the \href{https://github.com/timjurka/RTextTools}{\code{RTextTools}}
 package (now deprecated). Original source is \url{http://www.congressionalbills.org/}.

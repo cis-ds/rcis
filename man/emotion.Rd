@@ -4,7 +4,8 @@
 \name{emotion}
 \alias{emotion}
 \title{Emotion scores from 2016 presidential debate}
-\format{A data frame with 128,688 rows and 11 variables:
+\format{
+A data frame with 128,688 rows and 11 variables:
 \describe{
   \item{start}{The start time of the first event, in ticks. In this video there are
   30000 ticks per second.}
@@ -18,7 +19,8 @@
   \item{row_id}{ID of video frame.}
   \item{key}{Type of emotion measured.}
   \item{value}{Probability that the facial expression expresses this emotion.}
-}}
+}
+}
 \source{
 \url{https://blog.exploratory.io/analyzing-emotions-using-facial-expressions-in-video-with-microsoft-ai-and-r-8f7585dd0780}
 }

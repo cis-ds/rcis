@@ -4,14 +4,16 @@
 \name{dadmom}
 \alias{dadmom}
 \title{Dadmom}
-\format{A data frame with 3 rows and 5 variables:
+\format{
+A data frame with 3 rows and 5 variables:
 \describe{
   \item{famid}{Unit ID for family}
   \item{named}{Name of the dad}
   \item{incd}{Income of the dad}
   \item{namem}{Name of the mom}
   \item{incm}{Income of the mom}
-}}
+}
+}
 \source{
 \url{http://www.ats.ucla.edu/stat/stata/modules/reshapel.htm}
 }

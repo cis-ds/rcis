@@ -4,7 +4,8 @@
 \name{gun_deaths}
 \alias{gun_deaths}
 \title{Gun Deaths in America}
-\format{A data frame with 100,798 rows and 10 variables:
+\format{
+A data frame with 100,798 rows and 10 variables:
 \describe{
   \item{id}{Row number of the observation}
   \item{year}{Year the death occurred}
@@ -17,7 +18,8 @@
   Native American/Native Alaskan)}
   \item{place}{Location where the shooting occurred}
   \item{education}{Highest level of education of the victim}
-}}
+}
+}
 \source{
 \url{http://fivethirtyeight.com/features/gun-deaths/}
 }

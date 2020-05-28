@@ -4,7 +4,8 @@
 \name{mass_shootings}
 \alias{mass_shootings}
 \title{US Mass Shootings}
-\format{A data frame with 114 rows and 14 variables:
+\format{
+A data frame with 114 rows and 14 variables:
 \describe{
   \item{case}{Short name of the incident.}
   \item{year}{Year in which the shooting occurred.}
@@ -20,7 +21,8 @@
   \item{age_of_shooter}{Age of the perpetrator when the incident occurred.}
   \item{race}{Race of the shooter.}
   \item{prior_mental_illness}{Did the perpetrator show evidence of mental illness prior to the incident?}
-}}
+}
+}
 \source{
 \url{https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/}
 }

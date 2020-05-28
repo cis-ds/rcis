@@ -4,7 +4,9 @@
 \name{base_size}
 \alias{base_size}
 \title{Default base size for \code{\link{ggplot}} objects}
-\format{A numeric value}
+\format{
+A numeric value
+}
 \usage{
 base_size
 }
