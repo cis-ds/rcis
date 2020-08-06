@@ -19,6 +19,8 @@
 #'   who complete their degree within six years}
 #'   \item{firstgen}{Share of first-generation students}
 #'   \item{debt}{Median debt of students after leaving school}
+#'   \item{locale}{Locale of institution}
+#'   \item{openadmp}{Open admissions policy indicator}
 #' }
 #' @source \url{https://collegescorecard.ed.gov/data/}
 "scorecard"
