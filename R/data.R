@@ -210,8 +210,59 @@
 #' @source \url{https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/}
 "mass_shootings"
 
-#' @format
+#' World Bank indicators
 #'
-
+#' A dataset containing both quantitative variables and qualitative variables for six countries from 2005 to 2017.
+#' The countries included are: Argentina, China, United Kingdom, Indonesia, Norway, and United States
+#'
+#' @format A data frame with 78 rows and 14 variables:
+#' \describe{
+#'   \item{iso3c}{Country code ISO3}
+#'   \item{date}{Year in which the data is for}
+#'   \item{iso2c}{Country code ISO2}
+#'   \item{country}{Name of the country}
+#'   \item{perc_energy_fosfuel}{Fossil fuel energy consumption(% of total)}
+#'   \item{rnd_gdpshare}{Research and development expenditure (% of GDP)}
+#'   \item{percgni_adj_gross_savings}{Adjusted savings: gross savings (% of GNI)}
+#'   \item{real_netinc_percap}{Adjusted net national income per capita (constant 2010 US$)}
+#'   \item{gdp_capita}{GDP per capita(current USD)}
+#'   \item{top10perc_incshare}{Income share held by highest 10%}
+#'   \item{employment_ratio}{EmploymenAdjusted net national income per capita (constant 2010 US$)t to population ratio, 15+, total (%) (national estimate) }
+#'   \item{life_exp}{Life expectancy at birth, total(years)}
+#'   \item{pop_growth}{Population growth (annual %)}
+#'   \item{pop}{Total population}
+#' }
+#' @source \url{https://databank.worldbank.org/home.aspx}
+"worldbank"
+#'
+#'
+#'
+#' Chicago Public Schools school ratings
+#'
+#'
+#'
+#' @formatA data frame with 654 rows and 18 variables:
+#' \describe{
+#'   \item{school_id}{School ID}
+#'   \item{short_name}{}
+#'   \item{school_type}{}
+#'   \item{primary_category}{}
+#'   \item{student_growth_rating}{Student Growth measures the change in standardized test scores between two points in time compared other CPS school and schools nationwide. The score is based on an average of the available PSAT and SAT growth measures listed below.}
+#'   \item{student_attainment_rating}{}
+#'   \item{culture_climate_rating}{}
+#'   \item{creative_school_certification}{}
+#'   \item{involved_families}{}
+#'   \item{supportive_environment}{}
+#'   \item{ambitious_teaching}{}
+#'   \item{effective_leaders}{}
+#'   \item{school_survey_safety}{}
+#'   \item{attainment_math_pct_es}{}
+#'   \item{attainment_reading_pct_es}{}
+#'   \item{student_attendance_pct2019}{}
+#'   \item{teacher_attendance_pct2019}{}
+#'   \item{chronic_truancy_pct}{}
+#' }
+#' @source \url{https://data.cityofchicago.org/Education/Chicago-Public-Schools-School-Progress-Reports-SY1/dw27-rash}
+"cps"
 
 

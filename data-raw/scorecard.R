@@ -25,30 +25,6 @@ scorecard <- scorecard_2016 %>%
   select(-year) %>%
   # add text labels for type column and
   # convert average faculty salary to annual salary
-  mutate(control = factor(control, levels = 1:3,
-                          labels = c("Public", "Private, nonprofit",
-                                     "Private, for-profit")),
-         avgfacsal = avgfacsal * 9) %>%
-  # clean up names
-  rename(name = instnm,
-         state = stabbr,
-         type = control,
-         cost = costt4_a,
-         admrate = adm_rate,
-         satavg = sat_avg,
-         comprate = c150_4,
-         firstgen = first_gen,
-         debt = debt_mdn_supp) %>%
-  # remove observations with NA for admissions rate
-  drop_na(admrate)
-
-
-# clean the data set
-scorecard <- scorecard_2016 %>%
-  # drop year column
-  select(-year) %>%
-  # add text labels for type column and
-  # convert average faculty salary to annual salary
   # add text labels for locale
   mutate(control = factor(control, levels = 1:3,
                           labels = c("Public", "Private, nonprofit",

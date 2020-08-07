@@ -18,6 +18,14 @@ my_indicators <- c(
 )
 countries <- c("US", "NO", "ID", "CN", "GB", "AR")
 
-worldbank <- wb(country = countries, indicator = my_indicators, startdate = 2005, enddate=2017,
-        return_wide = TRUE) %>%
-  rename( my_indicators)
+worldbank <-
+  wb(
+    country = countries,
+    indicator = my_indicators,
+    startdate = 2005,
+    enddate = 2017,
+    return_wide = TRUE
+  ) %>%
+  rename(my_indicators)
+
+usethis::use_data(worldbank, overwrite = TRUE)
