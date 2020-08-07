@@ -246,20 +246,20 @@
 #'   \item{school_id}{School ID}
 #'   \item{short_name}{}
 #'   \item{school_type}{}
-#'   \item{primary_category}{}
+#'   \item{primary_category}{ES indicates elementary school; MS indicates middle school; and HS indicates high school}
 #'   \item{student_growth_rating}{Student Growth measures the change in standardized test scores between two points in time compared other CPS school and schools nationwide. The score is based on an average of the available PSAT and SAT growth measures listed below.}
 #'   \item{student_attainment_rating}{}
 #'   \item{culture_climate_rating}{}
 #'   \item{creative_school_certification}{}
-#'   \item{involved_families}{}
-#'   \item{supportive_environment}{}
-#'   \item{ambitious_teaching}{}
-#'   \item{effective_leaders}{}
-#'   \item{school_survey_safety}{}
+#'   \item{involved_families}{Category from 5 Essentials survey: involved families}
+#'   \item{supportive_environment}{Category from 5 Essentials survey: supportive environment}
+#'   \item{ambitious_teaching}{Category from 5 Essentials survey: ambitious instruction}
+#'   \item{effective_leaders}{Category from 5 Essentials survey: effective leaders}
+#'   \item{school_survey_safety}{Category from 5 Essentials survey}
 #'   \item{attainment_math_pct_es}{}
 #'   \item{attainment_reading_pct_es}{}
-#'   \item{student_attendance_pct2019}{}
-#'   \item{teacher_attendance_pct2019}{}
+#'   \item{student_attendance_pct2019}{Average daily student attendance}
+#'   \item{teacher_attendance_pct2019}{Average daily teacher attendance}
 #'   \item{chronic_truancy_pct}{}
 #' }
 #' @source \url{https://data.cityofchicago.org/Education/Chicago-Public-Schools-School-Progress-Reports-SY1/dw27-rash}
