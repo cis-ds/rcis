@@ -213,7 +213,7 @@
 #' World Bank indicators
 #'
 #' A dataset containing both quantitative variables and qualitative variables for six countries from 2005 to 2017.
-#' The countries included are: Argentina, China, United Kingdom, Indonesia, Norway, and United States
+#' The countries included are: Argentina, China, United Kingdom, Indonesia, Norway, and United States.
 #'
 #' @format A data frame with 78 rows and 14 variables:
 #' \describe{
@@ -221,22 +221,20 @@
 #'   \item{date}{Year in which the data is for.}
 #'   \item{iso2c}{Country code ISO2.}
 #'   \item{country}{Name of the country.}
-#'   \item{perc_energy_fosfuel}{Fossil fuel energy consumption(% of total).}
-#'   \item{rnd_gdpshare}{Research and development expenditure (% of GDP).}
-#'   \item{percgni_adj_gross_savings}{Adjusted savings: gross savings (% of GNI).}
+#'   \item{perc_energy_fosfuel}{Fossil fuel energy consumption ( \% of total).}
+#'   \item{rnd_gdpshare}{Research and development expenditure (\% of GDP).}
+#'   \item{percgni_adj_gross_savings}{Adjusted savings: gross savings (\% of GNI).}
 #'   \item{real_netinc_percap}{Adjusted net national income per capita (constant 2010 US$).}
-#'   \item{gdp_capita}{GDP per capita(current USD).}
-#'   \item{top10perc_incshare}{Income share held by highest 10%.}
-#'   \item{employment_ratio}{EmploymenAdjusted net national income per capita (constant 2010 US$)t to population ratio, 15+, total (%) (national estimate).}
-#'   \item{life_exp}{Life expectancy at birth, total(years).}
-#'   \item{pop_growth}{Population growth (annual %).}
+#'   \item{gdp_capita}{GDP per capita (current USD).}
+#'   \item{top10perc_incshare}{Income share held by highest 10 \%.}
+#'   \item{employment_ratio}{Employment to population ratio, 15+, total (\%) (national estimate).}
+#'   \item{life_exp}{Life expectancy at birth, total (years).}
+#'   \item{pop_growth}{Population growth (annual \%).}
 #'   \item{pop}{Total population.}
 #' }
 #' @source \url{https://databank.worldbank.org/home.aspx}
 "worldbank"
-#'
-#'
-#'
+
 #' Chicago Public Schools school ratings
 #'
 #' A dataset containing variables for Chicago Public Schools.
@@ -253,21 +251,21 @@
 #'     A 50th percentile score means the school grew at the same rate as the national average.}
 #'   \item{student_attainment_rating}{Measures how well the school performed on standardized test at a single point in time.
 #'    A school's scores are compared to national average scores.
-#'     A 50th percentile score means the school is performing at the same level as the national average school. }
+#'     A 50th percentile score means the school is performing at the same level as the national average school.}
 #'   \item{culture_climate_rating}{Results are based on student and teacher responses to the My Voice, My School 5Essentials survey.
-#'    For more information on this survey and other measures of school culture and climate visit  https://www.5-essentials.org/cps/5e/2018/ .}
+#'    For more information on this survey and other measures of school culture and climate visit  https://www.5-essentials.org/cps/5e/2018/}
 #'   \item{creative_school_certification}{The Creative Schools Certification (CSC) identifies the level of arts instruction in each school in five categories from Emerging to Excelling.}
 #'   \item{involved_families}{Category from 5 Essentials survey: does the school partner with families and communities?}
 #'   \item{supportive_environment}{Category from 5 Essentials survey: is the school safe and supportive with high expectations?}
-#'   \item{ambitious_teaching}{Category from 5 Essentials survey: is instruction focused, challenging, and engaging}
+#'   \item{ambitious_teaching}{Category from 5 Essentials survey: is instruction focused, challenging, and engaging?}
 #'   \item{effective_leaders}{Category from 5 Essentials survey: does leadership focus on results and school improvement?}
 #'   \item{school_survey_safety}{Category from 5 Essentials survey: do students feel safe and does the school support positive behavior?}
-#'   \item{attainment_math_pct_es}{Students' attainment in math}
-#'   \item{attainment_reading_pct_es}{Students' attainment in reading}
-#'   \item{student_attendance_pct2019}{Attendance of students in each Public School in Chicago for the year 2018-2019}
-#'   \item{teacher_attendance_pct2019}{Attendance of teachers in each Public School in Chicago for the year 2018-2019}}
+#'   \item{attainment_math_pct_es}{Students' attainment in math.}
+#'   \item{attainment_reading_pct_es}{Students' attainment in reading.}
+#'   \item{student_attendance_pct2019}{Attendance of students in each Public School in Chicago for the year 2018-2019.}
+#'   \item{teacher_attendance_pct2019}{Attendance of teachers in each Public School in Chicago for the year 2018-2019.}
 #'   \item{chronic_truancy_pct}{A chronic truant is a student with 9 or more unexcused absences for the school year
-#'    (5 percent or more of days enrolled)}
+#'    (5 percent or more of days enrolled).}
 #' }
 #' @source \url{https://data.cityofchicago.org/Education/Chicago-Public-Schools-School-Progress-Reports-SY1/dw27-rash}
 "cps"
