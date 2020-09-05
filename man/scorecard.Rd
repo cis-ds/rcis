@@ -21,6 +21,8 @@ A data frame with 1849 rows and 11 variables:
   who complete their degree within six years}
   \item{firstgen}{Share of first-generation students}
   \item{debt}{Median debt of students after leaving school}
+  \item{locale}{Locale of institution}
+  \item{openadmp}{Open admissions policy indicator}
 }
 }
 \source{
@@ -31,6 +33,6 @@ scorecard
 }
 \description{
 A dataset containing a sample of observations and variables
-from the Department of Education's College Scorecard (data is for 2013)
+from the Department of Education's College Scorecard (data is for 2016)
 }
 \keyword{datasets}
