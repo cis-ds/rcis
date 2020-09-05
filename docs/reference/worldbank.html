@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>cfss_notes — cfss_notes • rcfss</title>
+<title>World Bank indicators — worldbank • rcfss</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,9 @@
 
 
 
-<meta property="og:title" content="cfss_notes — cfss_notes" />
-<meta property="og:description" content="Function to generate notes for class." />
+<meta property="og:title" content="World Bank indicators — worldbank" />
+<meta property="og:description" content="A dataset containing both quantitative variables and qualitative variables for six countries from 2005 to 2017.
+The countries included are: Argentina, China, United Kingdom, Indonesia, Norway, and United States." />
 
 
 
@@ -103,18 +104,42 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>cfss_notes</h1>
+    <h1>World Bank indicators</h1>
     
-    <div class="hidden name"><code>cfss_notes.Rd</code></div>
+    <div class="hidden name"><code>worldbank.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Function to generate notes for class.</p>
+    <p>A dataset containing both quantitative variables and qualitative variables for six countries from 2005 to 2017.
+The countries included are: Argentina, China, United Kingdom, Indonesia, Norway, and United States.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>cfss_notes</span>()</pre>
+    <pre class="usage"><span class='no'>worldbank</span></pre>
 
 
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 78 rows and 14 variables:</p><dl'>
+  <dt>iso3c</dt><dd><p>Country code ISO3.</p></dd>
+  <dt>date</dt><dd><p>Year in which the data is for.</p></dd>
+  <dt>iso2c</dt><dd><p>Country code ISO2.</p></dd>
+  <dt>country</dt><dd><p>Name of the country.</p></dd>
+  <dt>perc_energy_fosfuel</dt><dd><p>Fossil fuel energy consumption ( % of total).</p></dd>
+  <dt>rnd_gdpshare</dt><dd><p>Research and development expenditure (% of GDP).</p></dd>
+  <dt>percgni_adj_gross_savings</dt><dd><p>Adjusted savings: gross savings (% of GNI).</p></dd>
+  <dt>real_netinc_percap</dt><dd><p>Adjusted net national income per capita (constant 2010 US$).</p></dd>
+  <dt>gdp_capita</dt><dd><p>GDP per capita (current USD).</p></dd>
+  <dt>top10perc_incshare</dt><dd><p>Income share held by highest 10 %.</p></dd>
+  <dt>employment_ratio</dt><dd><p>Employment to population ratio, 15+, total (%) (national estimate).</p></dd>
+  <dt>life_exp</dt><dd><p>Life expectancy at birth, total (years).</p></dd>
+  <dt>pop_growth</dt><dd><p>Population growth (annual %).</p></dd>
+  <dt>pop</dt><dd><p>Total population.</p></dd>
+
+</dl>
+
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p><a href='https://databank.worldbank.org/home.aspx'>https://databank.worldbank.org/home.aspx</a></p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

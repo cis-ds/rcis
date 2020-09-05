@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>cfss_notes — cfss_notes • rcfss</title>
+<title>Chicago Public Schools school ratings — cps • rcfss</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="cfss_notes — cfss_notes" />
-<meta property="og:description" content="Function to generate notes for class." />
+<meta property="og:title" content="Chicago Public Schools school ratings — cps" />
+<meta property="og:description" content="A dataset containing variables for Chicago Public Schools." />
 
 
 
@@ -103,18 +103,52 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>cfss_notes</h1>
+    <h1>Chicago Public Schools school ratings</h1>
     
-    <div class="hidden name"><code>cfss_notes.Rd</code></div>
+    <div class="hidden name"><code>cps.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Function to generate notes for class.</p>
+    <p>A dataset containing variables for Chicago Public Schools.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>cfss_notes</span>()</pre>
+    <pre class="usage"><span class='no'>cps</span></pre>
 
 
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 654 rows and 18 variables:</p><dl'>
+  <dt>school_id</dt><dd><p>CPS School ID of the indicated school.</p></dd>
+  <dt>short_name</dt><dd><p>Short Name for each Public School in Chicago.</p></dd>
+  <dt>school_type</dt><dd><p>Type of each Public School in Chicago (example, Neighborhood/Charter/etc.</p></dd>
+  <dt>primary_category</dt><dd><p>ES indicates elementary school; MS indicates middle school;
+   and HS indicates high school</p></dd>
+  <dt>student_growth_rating</dt><dd><p>Student Growth measures the change in standardized test scores between two points in time.
+   This growth is compared to the average national growth for schools that started in the same place.
+    A 50th percentile score means the school grew at the same rate as the national average.</p></dd>
+  <dt>student_attainment_rating</dt><dd><p>Measures how well the school performed on standardized test at a single point in time.
+   A school's scores are compared to national average scores.
+    A 50th percentile score means the school is performing at the same level as the national average school.</p></dd>
+  <dt>culture_climate_rating</dt><dd><p>Results are based on student and teacher responses to the My Voice, My School 5Essentials survey.
+   For more information on this survey and other measures of school culture and climate visit  https://www.5-essentials.org/cps/5e/2018/</p></dd>
+  <dt>creative_school_certification</dt><dd><p>The Creative Schools Certification (CSC) identifies the level of arts instruction in each school in five categories from Emerging to Excelling.</p></dd>
+  <dt>involved_families</dt><dd><p>Category from 5 Essentials survey: does the school partner with families and communities?</p></dd>
+  <dt>supportive_environment</dt><dd><p>Category from 5 Essentials survey: is the school safe and supportive with high expectations?</p></dd>
+  <dt>ambitious_teaching</dt><dd><p>Category from 5 Essentials survey: is instruction focused, challenging, and engaging?</p></dd>
+  <dt>effective_leaders</dt><dd><p>Category from 5 Essentials survey: does leadership focus on results and school improvement?</p></dd>
+  <dt>school_survey_safety</dt><dd><p>Category from 5 Essentials survey: do students feel safe and does the school support positive behavior?</p></dd>
+  <dt>attainment_math_pct_es</dt><dd><p>Students' attainment in math.</p></dd>
+  <dt>attainment_reading_pct_es</dt><dd><p>Students' attainment in reading.</p></dd>
+  <dt>student_attendance_pct2019</dt><dd><p>Attendance of students in each Public School in Chicago for the year 2018-2019.</p></dd>
+  <dt>teacher_attendance_pct2019</dt><dd><p>Attendance of teachers in each Public School in Chicago for the year 2018-2019.</p></dd>
+  <dt>chronic_truancy_pct</dt><dd><p>A chronic truant is a student with 9 or more unexcused absences for the school year
+   (5 percent or more of days enrolled).</p></dd>
+
+</dl>
+
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p><a href='https://data.cityofchicago.org/Education/Chicago-Public-Schools-School-Progress-Reports-SY1/dw27-rash'>https://data.cityofchicago.org/Education/Chicago-Public-Schools-School-Progress-Reports-SY1/dw27-rash</a></p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

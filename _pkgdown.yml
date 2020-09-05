@@ -19,7 +19,7 @@ reference:
   - title: Datasets
     desc: Datasets for in-class exercises, homework assignments, and demonstrations
     contents:
-      - '`USCongress`'
+      - '`cps`'
       - '`dadmom`'
       - '`emotion`'
       - '`gss_colrac`'
@@ -29,3 +29,5 @@ reference:
       - '`publishers`'
       - '`scorecard`'
       - '`superheroes`'
+      - '`worldbank`'
+      - '`USCongress`'
