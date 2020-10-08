@@ -14,7 +14,7 @@ A data frame with 1849 rows and 11 variables:
   \item{admrate}{Undergraduate admissions rate (from 0-100\%)}
   \item{satavg}{Average SAT equivalent score of students admitted}
   \item{cost}{The average annual total cost of attendance, including tuition and fees,
-  books and supplies, and living expenses, minus the average grant/scholarship aid}
+  books and supplies, and living expenses}
   \item{avgfacsal}{Average faculty salary (9 month)}
   \item{pctpell}{Percentage of undergraduates who receive a Pell Grant}
   \item{comprate}{Rate of first-time, full-time students at four-year institutions
