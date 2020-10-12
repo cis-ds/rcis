@@ -270,5 +270,27 @@
 #' @source \url{https://data.cityofchicago.org/Education/Chicago-Public-Schools-School-Progress-Reports-SY1/dw27-rash}
 "cps"
 
+#' Police stops in Nashville, TN
+#'
+#' A dataset containing standardized police stop data for Nashville, TN in 2015.
+#'
+#' @format A data frame with 276,103 rows and 11 variables:
+#' \describe{
+#'   \item{date}{The date of the stop, in YYYY-MM-DD format.}
+#'   \item{time}{The 24-hour time of the stop, in HH:MM format.}
+#'   \item{lat, lng}{The latitude and longitude of the stop.}
+#'   \item{precinct}{Police precinct.}
+#'   \item{subject_age}{The age of the stopped subject.}
+#'   \item{subject_race}{The race of the stopped subject.}
+#'   \item{subject_sex}{The recorded sex of the stopped subject.}
+#'   \item{type}{Type of stop: vehicular or pedestrian.}
+#'   \item{violation}{Specific violation of stop where provided.}
+#'   \item{search_conducted}{Indicates whether any type of search was conducted (i.e.
+#'   driver, passenger, vehicle).}
+#' }
+#' @source \href{https://openpolicing.stanford.edu/data/}{The Stanford Open Policing Project}
+#' under the \href{https://opendatacommons.org/licenses/by/summary/}{Open Data Commons Attribution License}
+"police_stops"
+
 
 

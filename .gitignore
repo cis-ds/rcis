@@ -34,3 +34,6 @@ vignettes/*.pdf
 .Rproj.user
 
 .DS_Store
+
+# ignore nashville police stops RDS file - too big to integrate with Git
+data-raw/yg821jf8611_tn_nashville_2020_04_01.rds
