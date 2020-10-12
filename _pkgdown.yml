@@ -26,6 +26,7 @@ reference:
       - '`gun_deaths`'
       - '`mass_shootings`'
       - '`mental_health`'
+      - 'police_stops'
       - '`publishers`'
       - '`scorecard`'
       - '`superheroes`'
