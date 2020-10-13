@@ -188,7 +188,7 @@
 #' US Mass Shootings
 #'
 #' A dataset containing records on all identifiable mass shootings in the
-#' United States from 1982-2019.
+#' United States from 1982-2020.
 #'
 #' @format A data frame with 114 rows and 14 variables:
 #' \describe{
