@@ -13,6 +13,7 @@ A data frame with 1,974 rows and 25 variables:
   \item{age}{Respondent's Age}
   \item{authoritarianism}{Authoritarianism Scale}
   \item{black}{Is Respondent African American?}
+  \item{cohort}{Year of birth}
   \item{colath}{College Teaching: Allow Anti-Religionist to Teach}
   \item{colmslm}{College Teaching: Allow Anti-American Muslim Clergymen to Teach}
   \item{degree}{Respondent's Highest Degree}
