@@ -287,7 +287,7 @@
 #'   \item{black}{Is Respondent African American?}
 #'   \item{colath}{College Teaching: Allow Anti-Religionist to Teach}
 #'   \item{colmslm}{College Teaching: Allow Anti-American Muslim Clergymen to Teach}
-#'   \item{educ}{Highest Year of School}
+#'   \item{degree}{Respondent's Highest Degree}
 #'   \item{egalit_scale}{Egalitarianism Scale}
 #'   \item{grass}{Should Marijuana Be Made Legal?}
 #'   \item{hispanic_2}{Is Respondent Hispanic?}

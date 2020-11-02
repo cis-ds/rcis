@@ -12,7 +12,7 @@ gss <- gss %>%
   select(
     id, wtss, colrac,
     age, authoritarianism, black, colath, colmslm,
-    educ, egalit_scale, grass, hispanic_2, income06,
+    degree, egalit_scale, grass, hispanic_2, income06,
     owngun, partyid_3, polviews, pray, pres08, race,
     sex, social_cons3, south, tolerance, wordsum, zodiac
   )
