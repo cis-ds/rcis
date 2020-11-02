@@ -156,6 +156,7 @@
 
 #' GSS dataset for in-class exercise
 #'
+#' \lifecycle{deprecated} \cr
 #' The General Social Survey polls individuals about their attitudes and beliefs.
 #' This dataset is contains a selection of variables relevant to predicting attitudes
 #' towards racist college professors.
@@ -270,5 +271,41 @@
 #' @source \url{https://data.cityofchicago.org/Education/Chicago-Public-Schools-School-Progress-Reports-SY1/dw27-rash}
 "cps"
 
+#' GSS dataset for in-class exercise
+#'
+#' The General Social Survey polls individuals about their attitudes and beliefs.
+#' This dataset is contains a selection of variables relevant to predicting attitudes
+#' towards racist college professors.
+#'
+#' @format A data frame with 1,974 rows and 25 variables:
+#' \describe{
+#'   \item{id}{Respondent Id Number}
+#'   \item{wtss}{Weight Variable}
+#'   \item{colrac}{College Teaching: Allow Racist to Teach}
+#'   \item{age}{Respondent's Age}
+#'   \item{authoritarianism}{Authoritarianism Scale}
+#'   \item{black}{Is Respondent African American?}
+#'   \item{colath}{College Teaching: Allow Anti-Religionist to Teach}
+#'   \item{colmslm}{College Teaching: Allow Anti-American Muslim Clergymen to Teach}
+#'   \item{educ}{Highest Year of School}
+#'   \item{egalit_scale}{Egalitarianism Scale}
+#'   \item{grass}{Should Marijuana Be Made Legal?}
+#'   \item{hispanic_2}{Is Respondent Hispanic?}
+#'   \item{income06}{Total Family Income}
+#'   \item{owngun}{Have Gun in Home}
+#'   \item{partyid_3}{Party Id: 3 Categories}
+#'   \item{polviews}{Ideological Self-Placement}
+#'   \item{pray}{How Often Does Respondent Pray}
+#'   \item{pres08}{Vote Obama or Mccain}
+#'   \item{race}{Race of Respondent}
+#'   \item{sex}{Respondent's Sex}
+#'   \item{social_cons3}{Social Conservatism}
+#'   \item{south}{Respondent from South?}
+#'   \item{tolerance}{Tolerance Scale}
+#'   \item{wordsum}{Number Words Correct in Vocabulary Test}
+#'   \item{zodiac}{Respondent's Astrological Sign}
+#' }
+#' @source 2012 General Social Survey.
+"gss"
 
 
