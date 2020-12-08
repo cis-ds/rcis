@@ -1,7 +1,7 @@
 #' College affordability from College Scorecard
 #'
 #' A dataset containing a sample of observations and variables
-#' from the Department of Education's College Scorecard (data is for 2016)
+#' from the Department of Education's College Scorecard (data is for the 2018-19 academic year)
 #'
 #' @format A data frame with 1849 rows and 11 variables:
 #' \describe{
@@ -13,6 +13,8 @@
 #'   \item{satavg}{Average SAT equivalent score of students admitted}
 #'   \item{cost}{The average annual total cost of attendance, including tuition and fees,
 #'   books and supplies, and living expenses}
+#'   \item{netcost}{The average annual net cost of attendance (annual cost of attendance
+#'   minus the average grant/scholarship aid)}
 #'   \item{avgfacsal}{Average faculty salary (9 month)}
 #'   \item{pctpell}{Percentage of undergraduates who receive a Pell Grant}
 #'   \item{comprate}{Rate of first-time, full-time students at four-year institutions
