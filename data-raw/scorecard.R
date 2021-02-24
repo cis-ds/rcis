@@ -12,7 +12,7 @@ scorecard_raw <- sc_init() %>%
     unitid, instnm, stabbr, control,
     adm_rate, sat_avg, costt4_a, npt4_pub, npt4_priv,
     avgfacsal, pctpell, c150_4, par_ed_pct_1stgen, debt_mdn_supp,
-    locale, openadmp
+    locale
   ) %>%
   # get latest observations
   sc_year("latest") %>%
@@ -44,10 +44,6 @@ scorecard <- scorecard_raw %>%
         rep("Town", 3),
         rep("Rural", 3)
       )
-    ),
-    openadmp = factor(openadmp,
-      levels = 1:2,
-      labels = c("Yes", "No")
     )
   ) %>%
   # collapse net-price columns to a single variable
@@ -65,8 +61,7 @@ scorecard <- scorecard_raw %>%
     comprate = c150_4,
     firstgen = par_ed_pct_1stgen,
     debt = debt_mdn_supp,
-    locale = locale,
-    openadmp = openadmp
+    locale = locale
   ) %>%
   # remove observations with NA for admissions rate
   drop_na(admrate)
