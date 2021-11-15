@@ -5,7 +5,7 @@
 \alias{mass_shootings}
 \title{US Mass Shootings}
 \format{
-A data frame with 114 rows and 14 variables:
+A data frame with 124 rows and 14 variables:
 \describe{
   \item{case}{Short name of the incident.}
   \item{year}{Year in which the shooting occurred.}
@@ -31,6 +31,6 @@ mass_shootings
 }
 \description{
 A dataset containing records on all identifiable mass shootings in the
-United States from 1982-2019.
+United States from 1982-2021.
 }
 \keyword{datasets}
