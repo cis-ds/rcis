@@ -1,4 +1,6 @@
-bootswatch: cerulean
+template:
+  bootstrap: 5
+  bootswatch: cerulean
 reference:
   - title: Helper functions
     desc: Short functions written to help perform basic operations in class.
