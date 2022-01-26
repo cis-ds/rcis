@@ -1,14 +1,14 @@
 Package: rcfss
 Type: Package
 Title: R for Computing for Social Sciences course
-Version: 0.2.1
+Version: 0.2.2
 Author: Benjamin Soltoff
 Maintainer: Benjamin Soltoff <ben@bensoltoff.com>
 Description: Helper functions and datasets for UChicago course on Computing for the Social Sciences.
 License: CC BY-NC 4.0 license
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Imports: 
     rlang,
     lifecycle

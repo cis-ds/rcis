@@ -35,6 +35,7 @@ mass_shootings <- mass_shootings_raw %>%
     prior_mental_illness = na_if(prior_mental_illness, "TBD"),
     prior_mental_illness = na_if(prior_mental_illness, "Unclear"),
     prior_mental_illness = na_if(prior_mental_illness, "Unknown"),
+    prior_mental_illness = stringr::str_to_title(string = prior_mental_illness),
     race = stringr::str_to_title(race),
     race = na_if(race, "-"),
     race = na_if(race, "Unclear"),
