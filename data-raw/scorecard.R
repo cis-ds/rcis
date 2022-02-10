@@ -49,6 +49,8 @@ scorecard <- scorecard_raw %>%
   # collapse net-price columns to a single variable
   unite(col = "npt4", starts_with("npt4"), na.rm = TRUE) %>%
   mutate(npt4 = parse_number(npt4)) %>%
+  # store all integer columns as double values
+  mutate(across(.cols = where(is.integer), .fns = as.double)) %>%
   # clean up names
   rename(
     name = instnm,
