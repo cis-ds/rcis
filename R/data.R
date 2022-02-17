@@ -347,3 +347,30 @@
 #' @source \href{https://github.com/washingtonpost/data-police-shootings}{The Washington Post}
 "police_shootings"
 
+#' Bechdel test
+#'
+#' A dataset containing Bechdel test scores for a sample of films from 1970-2013.
+#'
+#' The dataset has been lightly cleaned for pedagogical purposes and can
+#' be used to demonstrate machine learning using \code{tidymodels}.
+#'
+#' @format A data frame with 1394 rows and 10 variables:
+#' \describe{
+#'   \item{year}{Year the film was released.}
+#'   \item{title}{Film title.}
+#'   \item{bechdel}{Whether the film passed or failed the test. Pass requires the film
+#'   \enumerate{
+#'     \item Have at least two named women in it
+#'     \item Who talk to each other
+#'     \item About something other than a man
+#'   }}
+#'   \item{budget_2013}{Film's budget in millions of dollars (inflation-adjusted to 2013).}
+#'   \item{domgross_2013}{Domestic gross revenue in millions of dollars (inflation-adjusted to 2013).}
+#'   \item{intgross_2013}{International gross revenue in millions of dollars (inflation-adjusted to 2013).}
+#'   \item{rated}{MPAA film rating.}
+#'   \item{metascore}{\href{https://www.metacritic.com/}{Metacritic} film score (0-100).}
+#'   \item{imdb_rating}{\href{https://www.imdb.com/}{IMDB} film rating (0-10).}
+#'   \item{genre}{Primary genre of the film.}
+#' }
+#' @source \href{https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-03-09}{#TidyTuesday}
+"bechdel"
