@@ -311,4 +311,39 @@
 #' @source 2012 General Social Survey.
 "gss"
 
+#' Police usage of deadly force in the United States
+#'
+#' A dataset containing records on every fatal shooting in the
+#' United States by a police officer in the line of duty since Jan. 1, 2015.
+#'
+#' The dataset has been lightly cleaned for pedagogical purposes and can
+#' be used to demonstrate machine learning using \code{tidymodels}.
+#'
+#' @format A data frame with 5259 rows and 10 variables:
+#' \describe{
+#'   \item{manner_of_death}{How the victim died. Either shot or shot and tasered.}
+#'   \item{armed}{Indicates that the victim was armed with some sort of implement
+#'   that a police officer believed could inflict harm. One of unarmed, undetermined, unknown,
+#'   or a text description of the item with which the victim was armed.}
+#'   \item{age}{The age of the victim.}
+#'   \item{gender}{The gender of the victim. Uses a binary classification method (e.g. male or female).
+#'   Identifies victims by the gender they identify with if reports indicate that
+#'   it differs from their biological sex.}
+#'   \item{race}{Identifies the victim as either White (non-Hispanic), Black (non-Hispanic),
+#'   Asian, Native American, Hispanic, Other, or None.}
+#'   \item{state}{Two letter postal code abbreviation.}
+#'   \item{signs_of_mental_illness}{News reports have indicated the victim had a history
+#'   of mental health issues, expressed suicidal intentions or was experiencing mental
+#'   distress at the time of the shooting.}
+#'   \item{threat_level}{A subjective label used to identify the severity of the threat faced
+#'   by the police office. The attack category is meant to flag the highest level of threat.
+#'   The other and undetermined categories represent all remaining cases. Other includes
+#'   many incidents where officers or others faced significant threats.}
+#'   \item{flee}{News reports have indicated the victim was moving away from officers. Coded as
+#'   fleeing on foot, fleeing by car, or not fleeing.}
+#'   \item{body_camera}{News reports have indicated an officer was wearing a body camera and
+#'   it may have recorded some portion of the incident.}
+#' }
+#' @source \href{https://github.com/washingtonpost/data-police-shootings}{The Washington Post}
+"police_shootings"
 
