@@ -16,7 +16,7 @@ bechdel <- bechdel_raw %>%
   mutate(across(.cols = c(domgross_2013, intgross_2013), .fns = parse_number)) %>%
   mutate(across(.cols = ends_with("_2013"), .fns = ~ . / 1e07)) %>%
   # only keep rated of common ratings
-  filter(rated %in% c("G", "PG", "PG-13", "R") | is.na(rated)) %>%
+  filter(rated %in% c("G", "PG", "PG-13", "R", "NC-17") | is.na(rated)) %>%
   # only keep first value for genre
   mutate(genre = str_split_fixed(string = genre, pattern = ",", n = Inf)[,1] %>%
            na_if("")) %>%
