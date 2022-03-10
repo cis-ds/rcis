@@ -10,5 +10,6 @@ logit2prob(x)
 \item{x}{A vector of log-odds.}
 }
 \description{
+\lifecycle{deprecated} \cr
 Function to convert log-odds to predicted probabilities.
 }

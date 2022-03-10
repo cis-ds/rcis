@@ -1,5 +1,6 @@
 #' Mean squared error
 #'
+#' \lifecycle{deprecated} \cr
 #' @param data
 #' @param ...
 #'

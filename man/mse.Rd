@@ -19,5 +19,5 @@ mse_vec(truth, estimate, na_rm = TRUE, ...)
 
 }
 \description{
-Mean squared error
+\lifecycle{deprecated} \cr
 }

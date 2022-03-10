@@ -18,6 +18,7 @@ plot_ci(df_ci, x)
 \item{x}{Name of variable to plot on the x-axis, passed as a string.}
 }
 \description{
+\lifecycle{deprecated} \cr
 Function to generate 95\% confidence intervals using the output
 from \code{\link[broom]{augment}}. \code{\link{add_ci}} generates 95% confidence intervals
 using the fitted values and standard errors, and \code{\link{plot_ci}} generates

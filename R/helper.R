@@ -1,5 +1,6 @@
 #' Convert log-odds to predicted probabilities
 #'
+#' \lifecycle{deprecated} \cr
 #' Function to convert log-odds to predicted probabilities.
 #'
 #' @param x A vector of log-odds.
@@ -11,6 +12,7 @@ logit2prob <- function(x){
 
 #' Convert predicted probabilities to log-odds
 #'
+#' \lifecycle{deprecated} \cr
 #' Function to convert predicted probabilities to log-odds.
 #'
 #' @param x A vector of predicted probabilities.
@@ -22,6 +24,7 @@ prob2odds <- function(x){
 
 #' Convert probabilities to log-odds
 #'
+#' \lifecycle{deprecated} \cr
 #' Function to convert probabilities to log-odds.
 #'
 #' @param x A vector of predicted probabilities.
@@ -32,6 +35,7 @@ prob2logodds <- function(x){
 
 #' Calculate error rate for a classification model
 #'
+#' \lifecycle{deprecated} \cr
 #' Function to calculate error rate for a classification model.
 #'
 #' @param model Model estimated using \code{\link[randomForest]{randomForest}}.
@@ -62,6 +66,7 @@ err.rate.tree <- function(model, data) {
 
 #' Generate 95\% confidence intervals
 #'
+#' \lifecycle{deprecated} \cr
 #' Function to generate 95\% confidence intervals using the output
 #' from \code{\link[broom]{augment}}. \code{\link{add_ci}} generates 95% confidence intervals
 #' using the fitted values and standard errors, and \code{\link{plot_ci}} generates

@@ -16,5 +16,6 @@ err.rate.tree(model, data)
 \item{data}{Dataset used to calculate test error rate.}
 }
 \description{
+\lifecycle{deprecated} \cr
 Function to calculate error rate for a classification model.
 }
