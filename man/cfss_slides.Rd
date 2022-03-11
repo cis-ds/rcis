@@ -7,5 +7,6 @@
 cfss_slides(incremental = TRUE)
 }
 \description{
+\lifecycle{deprecated} \cr
 Function to generate slides for class.
 }

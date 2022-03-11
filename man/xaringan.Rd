@@ -9,3 +9,6 @@ xaringan()
 \description{
 Function to generate slides for class using \code{\link[xaringan]{moon_reader}}
 }
+\details{
+\lifecycle{deprecated} \cr
+}

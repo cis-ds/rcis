@@ -1,5 +1,6 @@
 #' cfss_slides
 #'
+#' \lifecycle{deprecated} \cr
 #' Function to generate slides for class.
 #'
 #'
@@ -47,6 +48,7 @@ base_size <- 24
 #' Function to generate slides for class using \code{\link[xaringan]{moon_reader}}
 #'
 #'
+#' \lifecycle{deprecated} \cr
 #' @importFrom magrittr "%>%"
 #' @export
 #'
@@ -61,6 +63,74 @@ xaringan <- function(){
       highlightStyle = "github",
       highlightLines = TRUE,
       countIncrementalSlides = FALSE
+    )
+  )
+}
+
+#' xaringan_wide
+#'
+#' Function to generate slides for class using \code{\link[xaringan]{moon_reader}}.
+#' Must pair with output from \code{xaringantheemer}
+#'
+#'
+#' @importFrom magrittr "%>%"
+#' @export
+#'
+xaringan_wide <- function(){
+  xaringan::moon_reader(
+    css = "xaringan-themer.css",
+    nature = list(
+      highlighStyle = "solarized-light",
+      highlightLanguage = c("r", "css", "yaml"),
+      highlightLines = TRUE,
+      ratio = "16:9",
+      countIncrementalSlides = FALSE
+    )
+  )
+}
+
+#' xaringan_theme
+#'
+#' Generate custom CSS theme using \code{\link[xaringanthemer]{style_duo_accent}}.
+#'
+#'
+#' @import xaringanthemer
+#' @export
+#'
+xaringan_theme <- function(){
+  xaringanthemer::style_duo_accent(
+    primary_color = "#800000",
+    secondary_color = "#EAAA00",
+    inverse_header_color = "#464A53",
+    black_color = "#464A53",
+    header_font_google = google_font("Roboto Condensed"),
+    text_font_google   = google_font("Roboto Condensed", "300", "300i"),
+    code_font_google   = google_font("Source Code Pro"),
+    base_font_size = "24px",
+    # title_slide_background_image = "https://github.com/uc-dataviz/course-notes/raw/main/images/hexsticker.svg",
+    # title_slide_background_size = "contain",
+    # title_slide_background_position = "top",
+    extra_css = list(
+      "h1" = list("margin-block-start" = "0.4rem",
+                  "margin-block-end" = "0.4rem"),
+      "h2" = list("margin-block-start" = "0.4rem",
+                  "margin-block-end" = "0.4rem"),
+      "h3" = list("margin-block-start" = "0.4rem",
+                  "margin-block-end" = "0.4rem"),
+      ".small" = list("font-size" = "90%"),
+      ".midi" = list("font-size" = "150%"),
+      ".large" = list("font-size" = "200%"),
+      ".xlarge" = list("font-size" = "600%"),
+      ".hand" = list("font-family" = "'Gochi Hand', cursive",
+                     "font-size" = "125%"),
+      ".task" = list("padding-right"    = "10px",
+                     "padding-left"     = "10px",
+                     "padding-top"      = "3px",
+                     "padding-bottom"   = "3px",
+                     "margin-bottom"    = "6px",
+                     "margin-top"       = "6px",
+                     "border-left"      = "solid 5px #F1DE67",
+                     "background-color" = "#F3D03E")
     )
   )
 }

@@ -13,10 +13,12 @@ reference:
       - '`prob2odds`'
       - '`xaringan`'
   - title: Notes/slides
-    desc: Functions to generate custom formatted RMarkdown notes and slides.
+    desc: Functions to generate custom formatted R Markdown notes and slides.
     contents:
       - '`cfss_notes`'
       - '`cfss_slides`'
+      - '`xaringan_wide`'
+      - '`xaringan_theme`'
       - '`base_size`'
   - title: Datasets
     desc: Datasets for in-class exercises, homework assignments, and demonstrations
