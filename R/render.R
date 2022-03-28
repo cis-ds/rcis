@@ -130,7 +130,20 @@ xaringan_theme <- function(){
                      "margin-bottom"    = "6px",
                      "margin-top"       = "6px",
                      "border-left"      = "solid 5px #F1DE67",
-                     "background-color" = "#F3D03E")
+                     "background-color" = "#F3D03E"),
+      ".pull-left" = list("width" = "49%",
+                          "float" = "left"),
+      ".pull-right" = list("width" = "49%",
+                           "float" = "right"),
+      ".pull-left-wide" = list("width" = "70%",
+                               "float" = "left"),
+      ".pull-right-narrow" = list("width" = "27%",
+                                  "float" = "right"),
+      ".pull-left-narrow" = list("width" = "27%",
+                                 "float" = "left"),
+      ".pull-right-wide" = list("width" = "70%",
+                                "float" = "right")
+
     )
   )
 }
