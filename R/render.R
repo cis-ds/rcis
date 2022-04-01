@@ -81,7 +81,7 @@ xaringan_wide <- function(){
     css = "xaringan-themer.css",
     nature = list(
       highlighStyle = "solarized-light",
-      highlightLanguage = c("r", "css", "yaml"),
+      highlightLanguage = c("r"),
       highlightLines = TRUE,
       ratio = "16:9",
       countIncrementalSlides = FALSE
@@ -107,9 +107,13 @@ xaringan_theme <- function(){
     text_font_google   = google_font("Roboto Condensed", "300", "300i"),
     code_font_google   = google_font("Source Code Pro"),
     base_font_size = "24px",
+    code_font_size = "20px",
     # title_slide_background_image = "https://github.com/uc-dataviz/course-notes/raw/main/images/hexsticker.svg",
     # title_slide_background_size = "contain",
     # title_slide_background_position = "top",
+    header_h1_font_size = "2rem",
+    header_h2_font_size = "1.75rem",
+    header_h3_font_size = "1.5rem",
     extra_css = list(
       "h1" = list("margin-block-start" = "0.4rem",
                   "margin-block-end" = "0.4rem"),
@@ -142,8 +146,11 @@ xaringan_theme <- function(){
       ".pull-left-narrow" = list("width" = "27%",
                                  "float" = "left"),
       ".pull-right-wide" = list("width" = "70%",
-                                "float" = "right")
-
+                                "float" = "right"),
+      ".blue" = list(color = "#2A9BB7"),
+      ".purple" = list(color = "#a493ba"),
+      ".yellow" = list(color = "#f1de67"),
+      ".gray" = list(color = "#464a53")
     )
   )
 }
