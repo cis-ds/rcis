@@ -15,9 +15,6 @@ mse_vec(truth, estimate, na_rm = TRUE, ...)
 \arguments{
 \item{...}{}
 }
-\value{
-
-}
 \description{
 \lifecycle{deprecated} \cr
 }
