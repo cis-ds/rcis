@@ -18,7 +18,6 @@ reference:
       - '`cfss_notes`'
       - '`cfss_slides`'
       - '`xaringan_wide`'
-      - '`xaringan_theme`'
       - '`base_size`'
   - title: Datasets
     desc: Datasets for in-class exercises, homework assignments, and demonstrations

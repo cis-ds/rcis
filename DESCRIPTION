@@ -1,7 +1,7 @@
 Package: rcfss
 Type: Package
 Title: R for Computing for Social Sciences course
-Version: 0.2.4
+Version: 0.2.5
 Author: Benjamin Soltoff
 Maintainer: Benjamin Soltoff <ben@bensoltoff.com>
 Description: Helper functions and datasets for UChicago course on Computing for the Social Sciences.
@@ -15,5 +15,3 @@ Imports:
 Depends: 
     R (>= 2.10)
 RdMacros: lifecycle
-Suggests: 
-    xaringanthemer
