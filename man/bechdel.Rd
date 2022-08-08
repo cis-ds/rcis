@@ -9,7 +9,7 @@ A data frame with 1394 rows and 10 variables:
 \describe{
   \item{year}{Year the film was released.}
   \item{title}{Film title.}
-  \item{bechdel}{Whether the film passed or failed the test. Pass requires the film
+  \item{test}{Whether the film passed or failed the test. Pass requires the film
   \enumerate{
     \item Have at least two named women in it
     \item Who talk to each other
