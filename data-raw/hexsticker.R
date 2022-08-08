@@ -1,5 +1,5 @@
 library(tidyverse)
-library(rcfss)
+library(rcis)
 library(hexSticker)
 library(here)
 library(showtext)
@@ -14,8 +14,8 @@ p <- ggplot(data = scorecard,
   theme_transparent()
 p
 
-sticker(subplot = p, package = "rcfss",
-        h_color = "#767676", h_fill = "#800000", p_color = "#D6D6CE",
+sticker(subplot = p, package = "rcis",
+        h_color = "#767676", h_fill = "#B31B1B", p_color = "#222222",
         s_x = 1,
         s_width = 1, s_height = .8,
         filename = here("man", "figures", "logo.svg"))

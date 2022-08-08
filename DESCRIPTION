@@ -1,10 +1,10 @@
-Package: rcfss
+Package: rcis
 Type: Package
-Title: R for Computing for Social Sciences course
+Title: R for Computing for Information Science course
 Version: 0.2.5
 Author: Benjamin Soltoff
 Maintainer: Benjamin Soltoff <ben@bensoltoff.com>
-Description: Helper functions and datasets for UChicago course on Computing for the Social Sciences.
+Description: Helper functions and datasets for Cornell course on Computing for Information Science.
 License: CC BY-NC 4.0 license
 Encoding: UTF-8
 LazyData: true

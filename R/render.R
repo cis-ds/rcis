@@ -7,7 +7,7 @@
 #' @export
 #'
 cfss_slides <- function(incremental = TRUE) {
-  css <- system.file("reports/styles.css", package = "rcfss")
+  css <- system.file("reports/styles.css", package = "rcis")
   revealjs::revealjs_presentation(theme = "simple",
                                   highlight = "pygments",
                                   incremental = incremental,

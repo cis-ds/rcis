@@ -5,7 +5,7 @@ author: |
   | MACS 30500 - Computing for the Social Sciences
   | University of Chicago
 date: 
-output: rcfss::cfss_notes
+output: rcis::cfss_notes
 bibliography: ../references.bib
 ---
 

@@ -1,3 +1,3 @@
-# rcfss <img src="man/figures/logo.svg" align="right" />
+# rcis <img src="man/figures/logo.svg" align="right" />
 
-Functions and datasets relevant for [Computing for the Social Sciences](https://cfss.uchicago.edu).
+Functions and datasets relevant for Computing for Information Science (INFO 5940).
