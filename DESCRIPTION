@@ -1,14 +1,14 @@
 Package: rcis
 Type: Package
 Title: R for Computing for Information Science course
-Version: 0.2.5
+Version: 0.2.6
 Author: Benjamin Soltoff
 Maintainer: Benjamin Soltoff <ben@bensoltoff.com>
 Description: Helper functions and datasets for Cornell course on Computing for Information Science.
 License: CC BY-NC 4.0 license
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.1
 Imports: 
     rlang,
     lifecycle
