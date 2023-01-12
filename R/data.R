@@ -1,7 +1,7 @@
 #' College affordability from College Scorecard
 #'
 #' A dataset containing a sample of observations and variables
-#' from the Department of Education's College Scorecard (data is for the 2018-19 academic year)
+#' from the Department of Education's College Scorecard (data is for the 2020-21 academic year)
 #'
 #' @format A data frame with 1849 rows and 11 variables:
 #' \describe{
