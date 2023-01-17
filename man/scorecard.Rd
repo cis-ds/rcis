@@ -24,7 +24,6 @@ A data frame with 1849 rows and 11 variables:
   \item{firstgen}{Share of first-generation students}
   \item{debt}{Median debt of students after leaving school}
   \item{locale}{Locale of institution}
-  \item{openadmp}{Open admissions policy indicator}
 }
 }
 \source{
