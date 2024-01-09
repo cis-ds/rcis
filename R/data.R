@@ -1,9 +1,9 @@
 #' College affordability from College Scorecard
 #'
 #' A dataset containing a sample of observations and variables
-#' from the Department of Education's College Scorecard (data is for the 2020-21 academic year)
+#' from the Department of Education's College Scorecard (data is for the 2021-22 academic year)
 #'
-#' @format A data frame with 1849 rows and 11 variables:
+#' @format A data frame with 1719 rows and 14 variables:
 #' \describe{
 #'   \item{unitid}{Unit ID for institution}
 #'   \item{name}{Name of the college}
